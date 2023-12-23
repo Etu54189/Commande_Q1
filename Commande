@@ -1,0 +1,31 @@
+Résumer commande en réseau :
+
+Linux
+
+Intéroger une machien viée son ip : ping IP
+Ajouter un ip fixe : ip addr add "ip/24" dev nominterface
+supprimer une ip fixe : ip addr del "ip/24" dev nominterface
+Supprimer une configuration d'une carte réseau : ip addr flush dev nominterface
+Voire les cartes réseau : ip addr show ou ip a
+Voire les informations niveau 2 des cartes : ip link show
+Voire les routes configurée : ip route show
+Fichier de configuration réseau : nano /Etc/network/interfaces
+Redémarrer le service résseau : systemctl restart networking
+Voire les logs : journalctl -xe
+Déconfiguré une interface : ifdown nominterfaces
+configuré une interface : ifup nominterfaces
+Liste des paramètres liés à une interface : ifquery nominterface
+Activer process client DHCP : dhclient -v nominterface
+Terminer tous les process DHCP : pkill dhclient
+
+Communication sécurisé 
+Connecter en telnet : telent IP
+Connecter en SSH : ssh IP
+Machine écoute avec netcat sur un port : nc -nlvp port
+Mise en place du chat : nc -nv IP
+Outil ncat : ncat -help
+
+Permet de devenir root : su -
+
+Réaliser une requête dns : nslookup nomdomaine
+Voire la status de port : nmap -p num ipmachine
