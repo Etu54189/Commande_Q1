@@ -19,8 +19,9 @@ Activer process client DHCP : dhclient -v nominterface
 Terminer tous les process DHCP : pkill dhclient
 
 Communication sécurisé 
-Connecter en telnet : telent IP
+Connecter en telnet : telnet IP
 Connecter en SSH : ssh IP
+  Option pour se connecter avec un utilisateur précis : ssh user@ip 
 Machine écoute avec netcat sur un port : nc -nlvp port
 Mise en place du chat : nc -nv IP
 Outil ncat : ncat -help
@@ -28,4 +29,11 @@ Outil ncat : ncat -help
 Permet de devenir root : su -
 
 Réaliser une requête dns : nslookup nomdomaine
-Voire la status de port : nmap -p num ipmachine
+Voire le status d'un port d'une machine : nmap -p num ipmachine
+Afficher l'itinéraire d'un paquet réseau : traceroute
+Visualiser les connexions réseau actives, les tables de routage et les statistiques réseau : netstat
+
+Windows :
+
+Afficher la configuration réseau : ipconfig /all
+Afficher l'itinéraire d'un paquet réseau : tracert ip
