@@ -1,1 +1,16 @@
 Commande linux
+
+df : Affiche l'utilisation de l'espace disque.
+chown nouveau_proprietaire nom_du_fichier : Change le propriétaire d'un fichier ou d'un répertoire.
+chmod permissions nom_du_fichier : Modifie les permissions d'un fichier ou d'un répertoire.
+cat nom_du_fichier : Affiche le contenu d'un fichier.
+rmdir nom_du_dossier : Supprime un répertoire vide.
+mkdir nom_du_dossier : Crée un nouveau répertoire.
+rm nom_du_fichier : Supprime des fichiers ou des répertoires.
+mv source destination : Déplace ou renomme des fichiers ou des répertoires.
+cp source destination : Copie des fichiers ou des répertoires.
+pwd : Affiche le chemin complet du répertoire actuel.
+cd nom_du_dossier : Change le répertoire de travail.
+ls : Liste le contenu du répertoire actuel.
+
+
